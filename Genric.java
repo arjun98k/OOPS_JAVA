@@ -8,5 +8,6 @@ public class Genric {
 
 		 Integer c = a;
 		 System.out.println(a+" "+var_a+" "+c);
+		 System.out.println("hii");
 	}
 }
