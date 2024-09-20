@@ -3,11 +3,11 @@ public class Genric {
 		System.out.println("Hii love cf");
 		System.out.println("how world of corporate world making fun of interns");
 		// convert interger into
-		 int a =98;
-		 Integer var_a = Integer.valueOf(a);
+		 Integer obj = new Integer(98);
+		 System.out.println(obj);
+		 System.out.println(obj.getClass().getName()); 
+		
+		 
 
-		 Integer c = a;
-		 System.out.println(a+" "+var_a+" "+c);
-		 System.out.println("hii");
 	}
 }
