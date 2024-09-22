@@ -20,5 +20,8 @@ public class CF_1 {
 	 list.add(87);
 	 System.out.println(list);
 	 System.out.println(list.size());
+	 System.out.println(list.remove(1));
+	 System.out.println(list.remove(Integer.valueOf(11)));
+	 System.out.println(list);;
 	}
 }
