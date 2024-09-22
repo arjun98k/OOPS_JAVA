@@ -6,9 +6,19 @@
 
 // The Collection interface is the root interface of the java collection
 // framework 
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class CF_1 {
 	public static void main(String[] args){
 		
-     System.out.println("hii");
+     List<Integer> list = new ArrayList<>();
+
+	 list.add(11);
+	 list.add(98);
+	 list.add(87);
+	 System.out.println(list);
+	 System.out.println(list.size());
 	}
 }
