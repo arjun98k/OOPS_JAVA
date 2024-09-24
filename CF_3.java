@@ -9,7 +9,9 @@ public class CF_3 {
         ls1.add(13);
         ls1.add(14);
         System.out.println(ls1);
-        System.out.println(ls1.get(0));
+        // System.out.println(ls1.get(0 ));
+        ls1.set(0, 98);
+        System.out.println(ls1);
     }
  
 }
