@@ -15,8 +15,10 @@ public class CF_2 {
           list1.add(14);  
 
         System.out.println(list1);
-        list1.removeAll(list2);
-        System.out.println(list1);
-        
+        // list1.removeAll(list2);
+        // System.out.println(list1);
+        boolean a = list1.contains(12);
+
+       System.out.println(a); 
     }
 }
