@@ -21,7 +21,7 @@ public class GEnrics_Method {
         // Print("arjun");
 
           Print(11);
-          Print("Akash");
+          Print("Akash AI engineer");
 
     }
 }
